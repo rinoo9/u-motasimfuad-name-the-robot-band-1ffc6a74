@@ -3,16 +3,20 @@
 Writes one funny name for a band made of robots, plus a few words on
 its hit song, to /output/entry.txt. Deterministic: no input, no
 randomness, no network.
+
+Round 2 angle: a Roomba band — household robots that clean up the charts
+and then get stuck under the couch. Fresh vs round 1 (Blue Screen of Death
+/ system crash): vacuums + tour, not crashes.
 """
 
 import os
 
-# The joke lands in two beats: the band name is a familiar Windows error
-# every computer user has cursed at, and the hit song turns a breakup
-# cliche into a system crash — then the encore crashes too.
+# The joke lands in two beats: the band is a household robot famous for
+# bumping into walls, and the hit song turns a breakup cliche into a
+# vacuum cleaner — then the tour ends stuck under the couch.
 LINE = (
-    "The Blue Screens of Death \u2014 hit single 'Ctrl+Alt+Delete My Heart': "
-    "it topped the charts, then crashed during the encore."
+    "The Roombas \u2014 hit single 'Suck It Up, Buttercup': they cleaned up "
+    "the charts, then got stuck under the couch on tour."
 )
 
 
