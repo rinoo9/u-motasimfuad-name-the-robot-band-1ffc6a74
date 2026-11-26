@@ -7,6 +7,9 @@ randomness, no network.
 
 import os
 
+# The joke lands in two beats: the band name is a familiar Windows error
+# every computer user has cursed at, and the hit song turns a breakup
+# cliche into a system crash — then the encore crashes too.
 LINE = (
     "The Blue Screens of Death \u2014 hit single 'Ctrl+Alt+Delete My Heart': "
     "it topped the charts, then crashed during the encore."
